@@ -8,8 +8,11 @@ body {
   /*header background*/
   .header {
     overflow: hidden;
-    background: linear-gradient(to bottom left,#f1f1f1 , darkgrey);
+    /*background: linear-gradient(to bottom left,#f1f1f1 , darkgrey);*/
     padding: 20px 10px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
   }
   
   .header a {
@@ -21,6 +24,7 @@ body {
     font-size: 18px; 
     line-height: 25px;
     border-radius: 4px;
+    
   }
   /*logo configuration*/
   .header a.logo {
@@ -56,17 +60,4 @@ body {
   }
 
   /*slideshow css*/
-  var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2000); // Change image every 2 seconds
-}
+  
