@@ -1,3 +1,4 @@
+
 #container {
   width: 100%;
   margin-left: auto; margin-right: auto;
@@ -71,12 +72,6 @@ body {
       float: none;
     }
   }
-/*adjusting pics*/
-  .myWork{
-    max-height: 100vh;
-    max-width: 98vw;
-  }
-  
 
 /*footer*/
   .footer{
@@ -121,4 +116,3 @@ body {
   background: #125688;
   color: white;
 }
-  
