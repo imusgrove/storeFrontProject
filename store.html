@@ -6,9 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chameleon Makeup</title>
     <link rel="stylesheet" type="text/css" href="store.css">
+    <!-- icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
+    <div class="main">
+    <div id="container">
     <div class="header">
         <a href="#default" class="logo">Chameleon_Makeup</a>
 
@@ -26,17 +30,22 @@
         <div class="makeupPics" style="max-width: width 100%;">
             <img class="myWork" src="./storePics/rhodah.jpg" alt="HTML5 Icon" style="width:100%">
             <img class="myWork" src="./storePics/monique.jpg" alt="HTML5 Icon" style="width:100%">
-            <img class="myWork" src="./storePics/kevina.jpg" alt="HTML5 Icon" style="width:100%">
-          
+            <img class="myWork" src="./storePics/kevina.jpg" alt="HTML5 Icon" style="width:100%">  
           </div> 
     </div>
 
    
     <div class="content"></div> 
-    <div class="footer"></div>  
+    <div class="footer">
+    <!--  font awesome icons -->
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    
+        </div>  
 
  
-    
+    <!--carousel-->
     <script>
         var myIndex = 0;
         carousel();
@@ -53,5 +62,7 @@
             setTimeout(carousel, 2000); // Change image every 2 seconds
         }
         </script> 
+    </div>
+</div>    
 </body>
 </html>
