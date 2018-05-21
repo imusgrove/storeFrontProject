@@ -71,7 +71,15 @@ body {
       float: none;
     }
   }
-.footer{
+/*adjusting pics*/
+  .myWork{
+    max-height: 100vh;
+    max-width: 98vw;
+  }
+  
+
+/*footer*/
+  .footer{
   width: 100%;
   height: 90px;
   background-color: rgba(88, 85, 85, 0.514);
